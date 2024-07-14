@@ -1,0 +1,61 @@
+
+.full-screen {
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: white;
+    padding: 4rem 0; 
+}
+
+.languages{
+text-align:left;
+}
+
+.nav-items:hover {
+        background-color: white; !important
+        transform: scale(1.05); 
+}
+
+.navbar {
+    color: white !important; 
+}
+
+.navbar-nav {
+    flex-direction: row; 
+}
+
+
+.footer {
+    color: white; 
+    padding: 1rem 0; 
+display:flex; 
+ justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+}
+
+body {
+    background-color: black; 
+}
+
+
+.container {
+    padding: 20px; 
+}
+
+.skill-container{
+justify-content: space-evenly;
+}
+
+.skill-item {
+        background-color: rgba(255, 255, 255, 0.1); 
+        border: 2px solid white; 
+        border-radius: 0.5rem; 
+        padding: 1rem;
+        transition: background-color 0.3s, transform 0.3s; 
+}
+
+.skill-item:hover {
+        background-color: rgba(255, 255, 255, 0.2); 
+        transform: scale(1.05); 
